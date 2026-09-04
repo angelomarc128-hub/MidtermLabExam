@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bok Portfolio</title>
+</head>
+<body>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i></i> BOK PORTFOLIO
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home"><i class="bi bi-house-fill"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about"><i class="bi bi-person-fill"></i> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery"><i class="bi bi-images"></i> Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mission"><i class="bi bi-bullseye"></i> Mission/Vision</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"><i class="bi bi-envelope-fill"></i> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <!-- ==================== HOME ==================== -->
+<section id="home" class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left side: text content -->
+            <div class="col-lg-7">
+                <h1 class="hero-title">Hello, I'm <span>Marc Nico</span></h1>
+                <p class="hero-sub">A passionate web developer &amp; designer. I craft clean, responsive, and user‑friendly digital experiences.</p>
+                <a href="#contact" class="btn btn-gold btn-lg mt-3"><i class="bi bi-send-fill me-2"></i>Get in touch</a>
+                <!-- Badge -->
+                <span class="badge bg-gold-soft ms-3 p-2"><i class="bi bi-check-circle-fill"></i> Available for any project</span>
+            </div>
+
+            <!-- Right side: image (wrapped in col-lg-5) -->
+            <div class="col-lg-5 text-center mt-4 mt-lg-0">
+                <div class="hero-img-placeholder">
+                    <img src="image7.jpeg" alt="Marc Nico - Profile Photo" class="img-fluid rounded-circle" style="max-width: 100%; height: auto; border: 3px solid #c9a84c;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Get to know me better – background, skills, and what drives me.</p>
+            </div>
+            <div class="row g-4">
+                <!-- Card 1: Personal Info -->
+                <div class="col-md-4">
+                    <div class="about-card">
+                        <div class="card-icon"><i class="bi bi-person-badge"></i></div>
+                        <h5 class="card-title">Personal Info</h5>
+                        <p class="card-text">
+                            <strong>Name:</strong> Marc Nico Ibdao<br />
+                            <strong>Age:</strong> 20<br />
+                            <strong>Education:</strong> BS in Information Technology<br />
+                            <strong>Location:</strong> UC PNC of Cabuyao, Laguna
+                        </p>
+                        <!-- Alert -->
+                        <div class="alert alert-info mt-3" role="alert">
+                            <i class="bi bi-lightbulb-fill me-2"></i> Currently improving my front‑end skills
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4">
+                    <div class="about-card">
+                        <div class="card-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h5 class="card-title">Technical Skills</h5>
+                        <div class="skill-item">
+                            <div class="skill-label"><span>HTML / CSS</span><span>50%</span></div>
+                            <div class="progress" style="height:8px;">
+                                <div class="progress-bar bg-gold" style="width:50%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-label"><span>JavaScript</span><span>20%</span></div>
+                            <div class="progress" style="height:8px;">
+                                <div class="progress-bar bg-gold" style="width:20%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-label"><span>Bootstrap</span><span>60%</span></div>
+                            <div class="progress" style="height:8px;">
+                                <div class="progress-bar bg-gold" style="width:60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+      
+                <div class="col-md-4">
+                    <div class="about-card">
+                        <div class="card-icon"><i class="bi bi-heart-fill"></i></div>
+                        <h5 class="card-title">Interests</h5>
+                        <p class="card-text">
+                            <span class="badge bg-gold-soft me-1">Open Source</span>
+                            <span class="badge bg-gold-soft me-1">UI/UX</span>
+                            <span class="badge bg-gold-soft me-1">Photography</span>
+                            <span class="badge bg-gold-soft">Gaming</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== GALLERY ==================== -->
+    <section id="gallery" class="py-5 bg-white">
+        <div class="container">
+            <div class="section-header">
+                <h2>Gallery</h2>
+                <p>A glimpse of my moments – image that tells my binata life:>.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2"></button>
+                        </div>
+                        <div class="carousel-inner rounded-4 shadow">
+                            <div class="carousel-item active">
+                                <div class="row g-2 p-3">
+                                    <div class="col-4"><img src="image1.jpeg" class="img-fluid rounded" alt="Photo 1"></div>
+                                    <div class="col-4"><img src="image2.jpeg" class="img-fluid rounded" alt="Photo 2"></div>
+                                    <div class="col-4"><img src="image3.jpeg" class="img-fluid rounded" alt="Photo 3"></div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row g-2 p-3">
+                                    <div class="col-4"><img src="image4.2.jpeg" class="img-fluid rounded" alt="Photo 4"></div>
+                                    <div class="col-4"><img src="image5.jpeg" class="img-fluid rounded" alt="Photo 5"></div>
+                                    <div class="col-4"><img src="image6.jpeg" class="img-fluid rounded" alt="Photo 6"></div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row g-2 p-3">
+                                    <div class="col-4"><img src="image4.jpeg" class="img-fluid rounded" alt="Extra 1"></div>
+                                    <div class="col-4"><img src="extra2.jpeg" class="img-fluid rounded" alt="Extra 2"></div>
+                                    <div class="col-4"><img src="extra3.jpeg" class="img-fluid rounded" alt="Extra 3"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== MISSION / VISION ==================== -->
+    <section id="mission" class="py-5">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mission &amp; Vision</h2>
+                <p>The guiding principles of the University of Cabuyao (PNC).</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="missionAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#visionCollapse">
+                                    <i class="bi bi-eye-fill me-2 text-gold"></i> Vision
+                                </button>
+                            </h2>
+                            <div id="visionCollapse" class="accordion-collapse collapse show" data-bs-parent="#missionAccordion">
+                                <div class="accordion-body">
+                                    <p class="mb-0">A premier institution of higher learning in Region IV, developing globally-competitive and value-laden professionals and leaders instrumental to community development and nation-building.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#missionCollapse">
+                                    <i class="bi bi-bullseye me-2 text-gold"></i> Mission
+                                </button>
+                            </h2>
+                            <div id="missionCollapse" class="accordion-collapse collapse" data-bs-parent="#missionAccordion">
+                                <div class="accordion-body">
+                                    <p>As an institution of higher learning, University of Cabuyao is committed to equip individuals with knowledge, skills and values that will enable them to achieve their professional goals and provide leadership and service for national development.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- ==================== CONTACT ==================== -->
+<section id="contact" class="py-5 bg-white">
+    <div class="container">
+        <div class="section-header">
+            <h2>Contact Me</h2>
+            <p>I'd love to hear from you – drop a message and I'll get back soon.</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- LEFT COLUMN: Contact Information -->
+            <div class="col-lg-5">
+                <div class="contact-info-card">
+                    <h4 class="fw-bold mb-3">Let's Connect</h4>
+                    <p class="text-muted mb-4">Feel free to reach out through any of the channels below. I'll get back to you as soon as possible.</p>
+
+                
+                    <div class="d-flex align-items-start mb-3">
+                        <i class="bi bi-envelope-fill text-gold fs-4 me-3"></i>
+                        <div>
+                            <h6 class="fw-bold mb-0">Email</h6>
+                            <p class="text-muted mb-0">Angelomarc@gmail.com</p>
+                        </div>
+                    </div>
+
+                   
+                    <div class="d-flex align-items-start mb-3">
+                        <i class="bi bi-phone-fill text-gold fs-4 me-3"></i>
+                        <div>
+                            <h6 class="fw-bold mb-0">Phone</h6>
+                            <p class="text-muted mb-0">+63 912 3456 789</p>
+                        </div>
+                    </div>
+
+               
+                    <div class="d-flex align-items-start mb-3">
+                        <i class="bi bi-geo-alt-fill text-gold fs-4 me-3"></i>
+                        <div>
+                            <h6 class="fw-bold mb-0">Location</h6>
+                            <p class="text-muted mb-0">University of Cabuyao (PNC), Laguna</p>
+                        </div>
+                    </div>
+
+                
+                    <div class="mt-4">
+                        <a href="#" class="text-dark me-3 fs-4 social-icon"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-dark me-3 fs-4 social-icon"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="text-dark me-3 fs-4 social-icon"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-dark me-3 fs-4 social-icon"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-dark me-3 fs-4 social-icon"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+          
+            <div class="col-lg-7">
+                <div class="card shadow-sm p-4">
+                    <form id="contactForm" action="#">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your name" required />
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="you@example.com" required />
+                            </div>
+                            <div class="col-12">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" />
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Write your message..." required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-gold w-100 py-2" data-bs-toggle="modal" data-bs-target="#successModal">
+                                    <i class="bi bi-send-fill me-2"></i> Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 Ibdao, Marc Nico – built with <i class="bi bi-heart-fill text-danger"></i> and Bootstrap.</p>
+        </div>
+    </footer>
+
+    <!-- ==================== MODAL  ==================== -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="bi bi-check-circle-fill text-success me-2"></i>Message Sent!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Your message has been sent successfully. I'll reply within 24 hours.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+        });
+    </script>
+</body>
+</html>
